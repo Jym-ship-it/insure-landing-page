@@ -3,6 +3,7 @@ import "./App.css";
 import { Box } from "@mui/system";
 import NavBar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import HowWeWork from "./Components/HowWeWork";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       </Box>
       <Box>
         <Hero/>
+        <HowWeWork/>
       </Box>
     </Box>
   );
