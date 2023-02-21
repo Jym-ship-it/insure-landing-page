@@ -2,6 +2,8 @@ import { Button, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import ImageIntro from "../Assets/Images/image-intro-desktop.jpg";
+import IntroLeftDT from '../Assets/Images/bg-pattern-intro-left-desktop.svg'
+import IntroRightDT from '../Assets/Images/bg-pattern-intro-right-desktop.svg'
 
 export default function Hero() {
   const style = {
@@ -13,6 +15,9 @@ export default function Hero() {
       display: "flex",
       flexDirection: "column",
       justifyContent: "center",
+      backgroundImage : `url(${IntroLeftDT}) , url(${IntroRightDT})`,
+      backgroundPosition : "left 500px , right top",
+      backgroundRepeat : "no-repeat"
     },
     subCon : {
         display : "flex",
